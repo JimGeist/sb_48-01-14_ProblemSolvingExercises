@@ -19,7 +19,7 @@ arrayRotate(["a", "b", "c"], 8) // ["b", "c", "a"]
 ```
 
 ### Timing and observations:
-** Time to Complete **: 64 minutes
+**Time to Complete**: 64 minutes
 
 The logic went together quickly, I guess toooo quickly. The test failed because it was rotating left, not right. And when I was working out the test for to adjust the index, I did not even notice I was shifting in the wrong direction. Time was lost fixing the mistake. I resisted the urge to simply change 'shift right' to 'shift left' in the description because I would have been done in ~30 minutes!
 
@@ -39,7 +39,7 @@ constructNote('aabbcc', 'bcabcaddff') // true
 ```
 
 ### Timing and observations:
-** Time to Complete **: 28 minutes
+**Time to Complete**: 28 minutes
 
 I need to take the time to read the problem and look at the test cases. The parameters were reversed on my function and I did not check for empty string.
 
@@ -59,7 +59,7 @@ averagePair([], 4); // false
 ```
 
 ### Timing and observations:
-** Time to Complete **: 111 minutes
+**Time to Complete**: 111 minutes
 
 The first iteration (34 minutes) did not pass all the tests. I moved on to other problems then return. I totally abandoned my initial code which was trying too hard to force the problem into a dual pointer. The second approach (77 minutes) focused on logic -- using the average of two numbers formula, determine what the second number should be (first number supplied by processing each number in the source array). To help the solution, a frequency object was created to quickly see if the second number ((avg * 2) - currentArrayNumber) existed in the array. The solution worked, but over an hour to solve would probably not be acceptable.
 
@@ -77,7 +77,7 @@ twoArrayObject(['x', 'y', 'z'], [1, 2]) // {'x': 1, 'y': 2, 'z': null}
 ```
 
 ### Timing and observations:
-** Time to Complete **: 18 minutes. This one needs a revisit to get reduce working. 
+**Time to Complete**: 18 minutes. This one needs a revisit to get reduce working. 
 
 
 ## sameFrequency
@@ -95,7 +95,7 @@ sameFrequency(22,222) // false
 ```
 
 ### Timing and observations:
-** Time to Complete **: 58 minutes
+**Time to Complete**: 58 minutes
 
 The solution was just marred with mistakes. `/` and `%`, division and modulos, were used -- mod 10 for the 'key' and division by 10 to effectively shift the number. `Math.floor(nbr / 10)` was not correctly saved and I thought it was an issue with the `Map` used for the frequency counter. The code was changed to use a straight object and that was when the incorrect save of `Math.floor(nbr / 10)` was discovered. Also mixed up code and tried the Python add a default value on the get -- freq.get(key, 0) -- use 0 if the key is not found.
 
@@ -117,7 +117,7 @@ separatePositive([1, 2, 3]) // [1, 2, 3]
 
 
 ### Timing and observations:
-** Time to Complete **: 71 minutes
+**Time to Complete**: 71 minutes
 
 Really frustrated on this one. The code worked, displaying the results via console logs showed everything working correctly. The problem was Jasmine expected the array to get returned. The array was getting altered correctly, it just needed to get returned.
 
@@ -137,7 +137,7 @@ isSubsequence('abc', 'acb'); // false (order matters)
 ```
 
 ### Timing and observations:
-** Time to Complete **: 48 minutes
+**Time to Complete**: 48 minutes
 
 No clue on this one. Read it a few times and just had no idea how to approach it. I moved on to countingPairs and that problem cleared the mental blockage I was experiencing.
 
@@ -160,7 +160,7 @@ countPairs([1,2,3,0,-1,-2],0) // 2
 ```
 
 ### Timing and observations:
-** Time to Complete **: 22 minutes
+**Time to Complete**: 22 minutes
 
 It helped to take the sample data and write down all the possible pairs and how to optimally use 2 indexes.
 
