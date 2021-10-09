@@ -1,6 +1,10 @@
 # sb_48-01-14_ProblemSolvingExercises
 
-Assignment involved problem solving using Frequency Counters and Multiple Pointers problem solving patterns. The problems were fairly straight forward. The only harrowing thing at times is the thought of well, what would this look like if I was solving this problem with an audience. The **Further Study** problems were not attempted.
+Assignment involved problem solving using Frequency Counters and Multiple Pointers problem solving patterns. The problems were fairly straight forward. The only harrowing thing at times is the thought of well, what would this look like if I was solving this problem with an audience. The **Further Study** problems were not attempted. 
+
+[Jasmine Test Results](https://jimgeist.github.io/sb_48-01-14_ProblemSolvingExercises/)
+
+**Please note** that the failing specification is from the first attempt of the `averagePair` problem.
 
 Overall, it felt good to get some of the solutions, the timing behind them is a concern. There were a few cases where the solution became evident after stepping throught he code in the browser and not in the actual code.
 
@@ -73,7 +77,7 @@ twoArrayObject(['x', 'y', 'z'], [1, 2]) // {'x': 1, 'y': 2, 'z': null}
 ```
 
 ### Timing and observations:
-** Time to Complete **: 18 minutes
+** Time to Complete **: 18 minutes. This one needs a revisit to get reduce working. 
 
 
 ## sameFrequency
