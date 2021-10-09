@@ -2,7 +2,7 @@
 
 Assignment involved problem solving using Frequency Counters and Multiple Pointers problem solving patterns. The problems were fairly straight forward. The only harrowing thing at times is the thought of well, what would this look like if I was solving this problem with an audience. The **Further Study** problems were not attempted. 
 
-[Jasmine Test Results](https://jimgeist.github.io/sb_48-01-14_ProblemSolvingExercises/)
+[Jasmine Test Results](https://jimgeist.github.io/sb_48-01-14_ProblemSolvingExercises/)published at https://jimgeist.github.io/sb_48-01-14_ProblemSolvingExercises/
 
 **Please note** that the failing specification is from the first attempt of the `averagePair` problem.
 
